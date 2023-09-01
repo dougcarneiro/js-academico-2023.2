@@ -1,0 +1,16 @@
+{
+  "name": "js-academico-2023.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}

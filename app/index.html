@@ -10,10 +10,10 @@
 <body>
 
     Nome:<input id="nome"><br>
-    Idade:<input id="idade" type="number"><br>
+    Idade:<input id="idade"><br>
     Matrícula:<input id="matricula"><br>
 
-    <button onclick="controlador.inserir()">Cadastrar</button>
+    <button onclick="controlador.inserir()" id="botaoCadastrarAtualizar">Cadastrar</button>
     <button onclick="controlador.listarAlunosMenoresIdade()">Mostrar Menores</button>
 
     <ol id="listaAlunos">
@@ -23,10 +23,10 @@
     <ul id="listaAlunosMenores">
     </ul>
 
-    <script src="modelo/aluno.js"></script>
-    <script src="repositorio/aluno_repositorio.js"></script>
-    <script src="servico/aluno_service.js"></script>
-    <script src="controlador/aluno_controlador.js"></script>
+    <script src="js/modelo/aluno.js"></script>
+    <script src="js/repositorio/aluno_repositorio.js"></script>
+    <script src="js/servico/aluno_service.js"></script>
+    <script src="js/controlador/aluno_controlador.js"></script>
     <script src="script.js"></script>
 
 </body>
