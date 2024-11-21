@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Acadêmico - IFPB</title>
+</head>
+
+<body>
+
+    Código:<input id="codigo"><br>
+    Nome:<input id="nome"><br>
+
+    <button onclick="controlador.inserir()">Cadastrar</button>
+    <div>
+        <a href=index.html>
+            <p>Ir até o cadastro de alunos</p>
+        </a>
+    </div>
+
+    <ol id="listaDisciplinas">
+
+    </ol>
+
+    <script src="modelo/disciplina.js"></script>
+    <script src="repositorio/disciplina_repositorio.js"></script>
+    <script src="servico/disciplina_service.js"></script>
+    <script src="controlador/disciplina_controlador.js"></script>
+    <script src="disciplinaScript.js"></script>
+
+</body>
+
+</html>

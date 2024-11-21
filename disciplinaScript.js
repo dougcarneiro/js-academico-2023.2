@@ -1,0 +1,1 @@
+const controlador = new DisciplinaControlador();
