@@ -22,4 +22,12 @@ class DisciplinaControlador {
         disciplinaElemento.textContent = `Código: ${disciplina.codigo} - Nome: ${disciplina.nome}`;
         elementoDestino.appendChild(disciplinaElemento);
     }
+
+    inserirAlunoNaDisciplina(codigoDisciplina, aluno) {
+        try {
+            this.servico.inserirAluno(codigoDisciplina, aluno);
+        } catch (error) {
+            alert(error.message);
+        }
+    }
 }

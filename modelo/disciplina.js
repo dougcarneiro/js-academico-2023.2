@@ -30,7 +30,7 @@ class Disciplina {
         this._alunos = novoAlunos;
     }
 
-    adicionarAluno(novoAluno) {
+    inserirAluno(novoAluno) {
         this._alunos.push(novoAluno);
     }
 

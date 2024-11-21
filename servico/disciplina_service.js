@@ -25,4 +25,12 @@ class DisciplinaService {
     atualizar(disciplina) {
         this.repositorio.atualizar(disciplina)
     }
+
+    inserirAluno(codigoDisciplina, aluno) {
+        const disciplina = this.pesquisarPorCodigo(codigoDisciplina);
+        if (!disciplina) {
+            throw new Error('Disciplina não cadastrada.');
+        }
+        disciplina.inserirAluno(aluno);
+    }
 }
